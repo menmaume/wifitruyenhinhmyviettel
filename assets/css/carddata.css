@@ -1,0 +1,54 @@
+.card-data {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    border-top: 4px solid #d50000;
+    display: block;
+  }
+  
+  .card-data h2 {
+    font-size: 27px;
+    color: rgb(255, 255, 255) ;
+    background-color: #d50000;
+    margin: 1px 0;
+    border: 1cm;
+    border-radius: 3cm;
+
+  }
+
+  .card-title{
+    
+  }
+  
+  .card-data p {
+    font-size: 14px;
+    color: #1d1d1d;
+    line-height: 1.5;
+  }
+  
+  .card-data .speed {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .card-data button {
+    background-color: #d50000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .card-data button:hover {
+    background-color: #a00000;
+  }
+  
