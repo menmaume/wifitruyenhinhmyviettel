@@ -1,0 +1,58 @@
+.card {
+    background-color: #f8f9fa; /* Màu nền nhẹ */
+    border: 1px solid #e0e0e0; /* Đường viền nhẹ */
+    border-radius: 8px; /* Bo tròn các góc */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    padding: 20px; /* Padding bên trong */
+    max-width: 300px; /* Chiều rộng tối đa của thẻ */
+    margin: 20px; /* Khoảng cách bên ngoài thẻ */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.card-header {
+    background-color: #c62828; /* Màu nền đỏ */
+    color: #ffffff; /* Màu chữ trắng */
+    padding: 10px; /* Padding cho header */
+    border-radius: 8px 8px 0 0; /* Bo tròn góc trên */
+    font-size: 1.5rem; /* Kích thước chữ */
+}
+
+.card-body {
+    margin: 15px 0; /* Khoảng cách cho nội dung */
+}
+
+.speed {
+    font-size: 1.2rem; /* Kích thước chữ cho tốc độ */
+    margin-bottom: 5px; /* Khoảng cách dưới tốc độ */
+}
+
+.price {
+    font-size: 1.5rem; /* Kích thước chữ cho giá */
+    color: #c62828; /* Màu chữ đỏ */
+}
+
+.description {
+    font-size: 0.9rem; /* Kích thước chữ cho mô tả */
+    margin: 10px 0; /* Khoảng cách trên và dưới */
+    color: #666; /* Màu chữ xám */
+}
+
+.button {
+    background-color: #c62828; /* Màu nền nút */
+    color: #ffffff; /* Màu chữ trên nút */
+    padding: 10px 20px; /* Padding bên trong nút */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn các góc nút */
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển động khi hover */
+}
+
+.button:hover {
+    background-color: #b71c1c; /* Màu nền khi hover */
+}
+
+.link {
+    color: #c62828; /* Màu chữ cho liên kết */
+    text-decoration: none; /* Không gạch chân */
+    font-size: 0.9rem; /* Kích thước chữ cho liên kết */
+}
