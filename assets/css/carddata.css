@@ -1,54 +1,154 @@
 .card-data {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    padding: 20px;
-    overflow: hidden;
-    border-top: 4px solid #d50000;
-    display: block;
-  }
-  
-  .card-data h2 {
-    font-size: 27px;
-    color: rgb(255, 255, 255) ;
-    background-color: #d50000;
-    margin: 1px 0;
-    border: 1cm;
-    border-radius: 3cm;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  border-top: 4px solid #d50000;
+  display: block;
+}
 
-  }
+.card-data h2 {
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  background-color: #d50000;
+  margin: 1px 0;
+  border: 1cm;
+  border-radius: 3cm;
 
-  .card-title{
-    
-  }
-  
-  .card-data p {
-    font-size: 14px;
-    color: #1d1d1d;
-    line-height: 1.5;
-  }
-  
-  .card-data .speed {
-    font-size: 20px;
-    color: #333;
-    margin: 10px 0;
-  }
-  
-  .card-data button {
-    background-color: #d50000;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 15px;
-    transition: background-color 0.3s;
-  }
-  
-  .card-data button:hover {
-    background-color: #a00000;
-  }
-  
+}
+
+.price {
+  font-size: 1.3rem; /* Kích thước chữ cho giá */
+}
+
+.description {
+  font-size: 0.9rem; /* Kích thước chữ cho mô tả */
+  margin: 10px 0; /* Khoảng cách trên và dưới */
+  color: #666; /* Màu chữ xám */
+  max-height: 100px; /* Chiều cao tối đa */
+  overflow-y: auto; /* Cho phép cuộn dọc */
+  padding: 10px; /* Padding bên trong để tạo không gian */
+  background-color: #ffffff; /* Màu nền trắng cho khung */
+  border: none; /* Không có đường viền */
+  border-radius: 4px; /* Bo tròn các góc */
+  box-shadow: none; /* Không có bóng */
+}
+
+.card-title {}
+
+.title-h3 {
+  font-size: 2rem; /* Kích thước chữ */
+  font-weight: bold; /* Chữ đậm */
+  color: #181818; /* Màu chữ tối */
+  margin: 20px 0; /* Khoảng cách trên và dưới */
+  font-family: 'Poppins', sans-serif;;
+}
+
+.highlight {
+  color: #d50000; /* Màu chữ đỏ cho phần nổi bật */
+}
+
+.highlight1 {
+  color: #008ed5; /* Màu chữ đỏ cho phần nổi bật */
+}
+
+.card-data p {
+  font-size: 14px;
+  color: #1d1d1d;
+  line-height: 1.5;
+}
+
+.card-data .speed {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card-data button {
+  background-color: #d50000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+  width: 100%; /* Chiều rộng 100% để các nút có cùng chiều dài */
+}
+
+.card-data button:hover {
+  background-color: #a00000;
+}
+
+/* Định dạng cho nút Chi tiết gói cước */
+.card-data button.secondary {
+  background-color: #ffffff; /* Màu nền trắng */
+  color: #666; /* Màu chữ xám */
+  border: 1px solid #e0e0e0; /* Đường viền nhẹ */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+.card-data button.secondary:hover {
+  background-color: #f0f0f0; /* Màu nền khi hover */
+}
+
+.custom-card {
+  background-color: #ffffff; /* Màu nền trắng */
+  border-radius: 8px; /* Bo tròn các góc */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  max-width: 300px; /* Chiều rộng tối đa */
+  margin: 20px; /* Khoảng cách bên ngoài */
+  overflow: hidden; /* Ẩn viền ngoài */
+}
+
+.custom-card-header {
+  background-color: #d50000; /* Màu nền đỏ */
+  color: #ffffff; /* Màu chữ trắng */
+  padding: 15px; /* Padding cho header */
+  text-align: center; /* Căn giữa nội dung */
+  font-size: 1.5rem; /* Kích thước chữ */
+  font-weight: bold; /* Chữ đậm */
+}
+
+.custom-badge {
+  background-color: #ffffff; /* Màu nền cho badge */
+  color: #d50000; /* Màu chữ đỏ */
+  border-radius: 4px; /* Bo tròn các góc */
+  padding: 5px 10px; /* Padding cho badge */
+  margin-left: 10px; /* Khoảng cách bên trái */
+}
+
+.custom-card-body {
+  padding: 15px; /* Padding bên trong */
+}
+
+.custom-card-body h2 {
+  font-size: 1.2rem; /* Kích thước chữ cho tiêu đề */
+  margin: 10px 0; /* Khoảng cách trên và dưới */
+}
+
+.custom-card-body p {
+  font-size: 0.9rem; /* Kích thước chữ cho mô tả */
+  color: #666; /* Màu chữ xám */
+  margin: 10px 0; /* Khoảng cách trên và dưới */
+}
+
+.custom-button {
+  background-color: #d50000; /* Màu nền cho nút */
+  color: white; /* Màu chữ trắng */
+  border: none; /* Không có đường viền */
+  border-radius: 4px; /* Bo tròn các góc */
+  padding: 10px 15px; /* Padding cho nút */
+  cursor: pointer; /* Thay đổi con trỏ khi hover */
+  font-size: 16px; /* Kích thước chữ */
+  width: 100%; /* Chiều rộng 100% */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển động khi hover */
+}
+
+.custom-button:hover {
+  background-color: #a00000; /* Màu nền khi hover */
+}
