@@ -2,7 +2,6 @@
   background: white;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  width: 300px;
   text-align: center;
   padding: 20px;
   overflow: hidden;
@@ -100,7 +99,7 @@
   background-color: #ffffff; /* Màu nền trắng */
   border-radius: 8px; /* Bo tròn các góc */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
-  max-width: 300px; /* Chiều rộng tối đa */
+  /* max-width: 300px; Chiều rộng tối đa */
   margin: 20px; /* Khoảng cách bên ngoài */
   overflow: hidden; /* Ẩn viền ngoài */
 }
@@ -112,6 +111,7 @@
   text-align: center; /* Căn giữa nội dung */
   font-size: 1.5rem; /* Kích thước chữ */
   font-weight: bold; /* Chữ đậm */
+  width: 100%;
 }
 
 .custom-badge {
@@ -151,4 +151,87 @@
 
 .custom-button:hover {
   background-color: #a00000; /* Màu nền khi hover */
+}
+
+.televison-card {
+  background-color: #ffffff; /* Màu nền trắng */
+  border-radius: 10px; /* Bo tròn các góc */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Bóng đổ mềm mại hơn */
+  transition: transform 0.3s, box-shadow 0.3s; /* Thêm hiệu ứng bóng khi hover */
+}
+
+.televison-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Bóng đổ sâu hơn khi hover */
+}
+
+.televison-card-header {
+  background-color: #d50000; /* Đỏ */
+  color: white;
+  padding: 15px 20px; /* Thêm khoảng cách bên trái và bên phải */
+  font-size: 20px; /* Tăng kích thước phông chữ */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #b30000; /* Đường viền dưới để tạo sự nổi bật */
+}
+
+.televison-badge {
+  background-color: #ffffff; /* Trắng */
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #d50000; /* Đỏ */
+  font-weight: bold; /* Làm đậm chữ */
+}
+
+.televison-card-body {
+  padding: 20px;
+}
+
+.televison-card-body h2 {
+  font-size: 22px; /* Tăng kích thước tiêu đề */
+  margin-bottom: 10px;
+  color: #000; /* Đen */
+}
+
+.televison-button {
+  background-color: #d50000; /* Đỏ */
+  color: white;
+  border: none;
+  padding: 12px 18px; /* Tăng kích thước nút */
+  border-radius: 5px; /* Bo tròn góc nút */
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s, transform 0.2s; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.televison-button:hover {
+  background-color: #b30000; /* Đỏ đậm */
+  transform: scale(1.05); /* Tăng kích thước nút khi hover */
+}
+
+.font-small {
+  font-size: small;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.televison-price {
+  margin: 10px;
+  font-size: 18px; /* Kích thước chữ giá */
+  color: #4d4d4d; 
+  font-weight: bold; /* Làm đậm chữ giá */
+}
+.background-suppernet{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 50%, #d50000 100%); /* Gradient đỏ pha xám nhạt */
+  background-size: cover;
+    background-position: center;
+    /* Các thuộc tính khác... */
+}
+.suppernet-content{
+  margin: 7%;
 }
